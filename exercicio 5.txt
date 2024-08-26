@@ -1,0 +1,6 @@
+print("Escreva um valor para saber seu antecessor")
+valor = int(input())
+
+antecessor = valor - 1
+
+print("O antecessor de " + str(valor), "é : " + str(antecessor))
