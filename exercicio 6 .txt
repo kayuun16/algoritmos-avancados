@@ -1,0 +1,9 @@
+print("Escreva a base do retangulo")
+base = float(input())
+
+print("Escreva a altura do retangulo")
+altura = float(input())
+
+area = base * altura
+
+print("A area do retangulo é : " + str(area))
