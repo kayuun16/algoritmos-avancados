@@ -6,4 +6,4 @@ C = A
 A = B
 B = C
 
-print ("A = " + str(A),"/ B = " + str(B),"/ C = " + str(C))
+print ("A = " + str(A),"/ B = " + str(B))
