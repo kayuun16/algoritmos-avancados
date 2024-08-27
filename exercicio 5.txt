@@ -1,3 +1,5 @@
+# 5) Escreva um algoritmo para ler um valor (do teclado) e escrever (na tela) o seu antecessor.
+
 print("Escreva um valor para saber seu antecessor")
 valor = int(input())
 
