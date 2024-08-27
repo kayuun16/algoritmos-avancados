@@ -1,3 +1,4 @@
+# 20) Ler dois valores (considere que não serão lidos valores iguais) e escrevê-los em ordem crescente.
 print("Digite um valor")
 valor_1 = float(input())
 
