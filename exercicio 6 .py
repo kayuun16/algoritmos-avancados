@@ -7,4 +7,4 @@ altura = float(input())
 
 area = base * altura
 
-print("A area do retangulo e : " + str(area))
+print("Area do retangulo : " + str(area))
