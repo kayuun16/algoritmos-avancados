@@ -14,4 +14,4 @@ if valor1 > valor2:
 elif valor1 == valor2:
     print("Numeros iguais")
 else:
-    print("Segundo maior!")
+    print("Segundo e maior!")
