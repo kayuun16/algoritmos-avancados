@@ -29,6 +29,6 @@ nulos_percentual = (votos_nulos / votos_totais) * 100
 
 print("Total de Porcentagens:")
 
-print("Total de votos validos: " + str(validos_percentual), "%")
-print("Total de votos em branco: " + str(branco_percentual), "%")
-print("Total de votos nulos: " + str(nulos_percentual), "%")
+print(f"Total de votos validos: {validos_percentual:.2f} %")
+print(f"Total de votos em branco: {branco_percentual:.2f} %")
+print(f"Total de votos nulos: {nulos_percentual:.2f} %")
