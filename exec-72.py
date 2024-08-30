@@ -6,8 +6,8 @@ soma = 0
 maior_preco = 0
 
 for i in range(1, 16):
-    cod_produto = str(input('Digite o codigo do produto: '))
-    preco_produto = float(input('Digite o preco do produto: '))
+    cod_produto = str(input(f'Digite o codigo do produto {i}: '))
+    preco_produto = float(input(f'Digite o preco do produto {i}: '))
     soma += preco_produto
     
     if maior_preco == 0 or maior_preco < preco_produto:
