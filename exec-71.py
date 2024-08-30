@@ -14,4 +14,4 @@ if maior_valor == 0 or maior_valor < valor:
 media = soma / qtd_valores
     
 print(f'Maior valor dentre os {qtd_valores} valores: {maior_valor}')
-print(f'Media aritmetica dos valores: {media}')
+print(f'Media aritmetica dos valores: {media:.2f}')
