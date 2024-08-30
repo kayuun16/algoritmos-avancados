@@ -1,8 +1,5 @@
 # 5) Escreva um algoritmo para ler um valor (do teclado) e escrever (na tela) o seu antecessor.
 
-print("Escreva um valor para saber seu antecessor")
-valor = int(input())
+valor = int(input('Digite um valor: '))
 
-antecessor = valor - 1
-
-print("O antecessor de " + str(valor), "e : " + str(antecessor))
+print(f'Antecessor de {valor}: {valor - 1}')
