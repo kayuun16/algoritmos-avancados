@@ -22,10 +22,10 @@ altura = float(input())
 print("Qual o seu sexo? ('M' para masculino ou 'F' para feminino)")
 sexo = str(input())
 
-if sexo == "M" or sexo == "m":
+if sexo.upper() == "M":
     peso_ideal = (72.7 * altura) - 58
     print(f"Seu peso ideal: {peso_ideal:.2f} kg")
-elif sexo == "F" or sexo == "f":
+elif sexo.upper() == "F":
     peso_ideal = (62.1 * altura) - 44.7
     print(f"Seu peso ideal: {peso_ideal:.2f} kg")
 else:
