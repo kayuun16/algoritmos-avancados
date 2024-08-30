@@ -12,6 +12,6 @@ while True:
         divisao = valor1 / valor2
         break
     else:
-        print("O segundo valor nao pode ser igual a 0!")
+        print("Valor Invalido")
     
 print(f"Resultado da divisao de {valor1} por {valor2}: {divisao:.2f}")
