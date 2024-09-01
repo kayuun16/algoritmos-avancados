@@ -1,8 +1,8 @@
 # 88) Faça um algoritmo para ler um vetor de 20 números. Após isto, deverá ser lido mais um número qualquer e verificar se esse número existe no vetor ou não. Se existir, o algoritmo deve gerar um novo vetor sem esse número. (Considere que não haverão números repetidos no vetor).
 
-vet = [None] * 5
+vet = [None] * 20
 
-for i in range(5):
+for i in range(20):
     vet[i] = float(input(f'Digite o valor na posicao {i + 1} do vetor: '))
     
 novo_valor = float(input('Digite um valor: '))
