@@ -5,7 +5,6 @@ notas = [None] * total_alunos
 soma_notas = 0
 alunos_acima_media = 0
 
-
 for i in range(total_alunos):
     notas[i] = float(input(f'Digite a nota do aluno {i + 1}: '))
     soma_notas += notas[i]
