@@ -5,12 +5,12 @@
 # c) Temperatura média anual
 # d) O número de dias no ano em que a temperatura foi inferior a média anual
 
-temperaturas = [None] * 5
+temperaturas = [None] * 365
 qtd_temperaturas = 0
 soma_temperaturas = 0
 dias_abaixo_media = 0
 
-for i in range(5):
+for i in range(365):
     temperaturas[i] = float(input(f'Digite a temperatura media do dia {i + 1}: '))
     qtd_temperaturas += 1
     soma_temperaturas += temperaturas[i]
