@@ -1,12 +1,10 @@
 # 70) Faça um programa que leia 100 valores e no final, escreva o maior e o menor valor lido.
 
-import random
-
 maior_valor = 0
 menor_valor = 0
 
-for _ in range(100):
-    valor = random.randint(-1000, 1000)
+for i in range(100):
+    valor = float(input('Digite um valor: '))
     print(valor)
     
     if maior_valor == 0 or valor > maior_valor:
