@@ -23,4 +23,4 @@ else:
     if comb_litros <= 20 and comb_tipo == "G":
         preco_final = (comb_litros * 3.30) - ((4 / 100) * comb_litros)
 
-print("Preco final: R$" + str(preco_final))
+print("Preco final: R$" + str(preco_final)) 
